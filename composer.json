@@ -1,0 +1,19 @@
+{
+    "require" : {
+        "silex/silex" : "1.1",
+		 "symfony/translation": "2.1.*",
+		"symfony/config": "2.1.*",
+		"symfony/yaml": "~2.1",
+		"twig/twig": "1.15.*",
+		"twitter/bootstrap": "v3.1.1",
+                "doctrine/dbal" : "2.3.*"
+    },
+    "config": {
+        "bin-dir": "vendor/bin/"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Eirian\\GuitarBlog\\" : "src"
+        }
+    }
+}
